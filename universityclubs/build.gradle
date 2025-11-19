@@ -1,0 +1,6 @@
+// Top-level build file - placeholder to open in Android Studio
+buildscript {
+    repositories { google(); mavenCentral() }
+    dependencies { classpath 'com.android.tools.build:gradle:7.0.0' }
+}
+allprojects { repositories { google(); mavenCentral() } }
